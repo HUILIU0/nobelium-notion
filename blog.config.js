@@ -20,7 +20,7 @@ const BLOG = {
   ogImageGenerateURL: 'https://og-image-craigary.vercel.app', // The link to generate OG image, don't end with a slash
   socialLink: 'https://twitter.com/craigaryhart',
   seo: {
-    keywords: ['Blog','第八天','nabin', 'Website', 'Notion'],
+    keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
   },
   notionPageId: process.env.NOTION_PAGE_ID, // DO NOT CHANGE THIS！！！
@@ -28,9 +28,9 @@ const BLOG = {
   analytics: {
     provider: '', // Currently we support Google Analytics and Ackee, please fill with 'ga' or 'ackee', leave it empty to disable it.
     ackeeConfig: {
-      tracker: 'https://umami.nabin.cn/script.js', // e.g 'https://ackee.craigary.net/tracker.js'
-      dataAckeeServer: 'https://umami.nabin.cn', // e.g https://ackee.craigary.net , don't end with a slash
-      domainId: 'b92ff864-830e-44a7-a440-a2c1fbede819' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
+      tracker: '', // e.g 'https://ackee.craigary.net/tracker.js'
+      dataAckeeServer: '', // e.g https://ackee.craigary.net , don't end with a slash
+      domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
       measurementId: '' // e.g: G-XXXXXXXXXX
