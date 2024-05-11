@@ -3,6 +3,8 @@
     "INDEX": "Blog",
     "RSS": "RSS",
     "SEARCH": "Search",
+    "LINK": "link",
+    "PUB": "pub",
     "ABOUT": "About"
   },
   "PAGINATION": {

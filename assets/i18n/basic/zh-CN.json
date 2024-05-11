@@ -1,8 +1,10 @@
 {
   "NAV": {
-    "INDEX": "博客",
+    "INDEX": "主页",
     "RSS": "订阅",
     "SEARCH": "搜索",
+    "LINK": "链接",
+    "PUB": "知识库",
     "ABOUT": "关于"
   },
   "PAGINATION": {
