@@ -10,7 +10,7 @@ const NavBar = () => {
   const locale = useLocale()
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
-    { id: 1, name: locale.NAV.PUB, to: 'https://www.thus.chat/', show: true },
+    { id: 1, name: locale.NAV.PUB, to: 'https://liuxiaolin.notion.site/', show: true },
     { id: 2, name: locale.NAV.LINK, to: '/link', show: true },
     { id: 3, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
     { id: 4, name: locale.NAV.RSS, to: '/feed', show: false, external: true },
